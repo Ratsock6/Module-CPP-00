@@ -6,7 +6,7 @@
 /*   By: aallou-v <aallou-v@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 12:56:06 by aallou-v          #+#    #+#             */
-/*   Updated: 2024/04/07 13:53:34 by aallou-v         ###   ########.fr       */
+/*   Updated: 2024/04/07 14:15:10 by aallou-v         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,10 +97,7 @@ void	PhoneBook::search(void)
 	else if (input == "8")
 		this->contact[7].print();
 	else
-	{
 		std::cout << "Cette index de contact n'existe pas ou est invalide.";
-	}
-	
 }
 
 void	PhoneBook::list(void)
