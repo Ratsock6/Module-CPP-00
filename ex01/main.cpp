@@ -6,7 +6,7 @@
 /*   By: aallou-v <aallou-v@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 19:19:54 by aallou-v          #+#    #+#             */
-/*   Updated: 2024/04/06 20:39:13 by aallou-v         ###   ########.fr       */
+/*   Updated: 2024/04/07 13:13:39 by aallou-v         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	main()
 	std::cout << "|  \\/|| |_||| / \\|| |\\ |||  \\  | | //| / \\|| / \\||   / " << std::endl;
 	std::cout << "|  __/| | ||| \\_/|| | \\|||  /_ | |_\\\\| \\_/|| \\_/||   \\ " << std::endl;
 	std::cout << "\\_/   \\_/ \\|\\____/\\_/  \\|\\____\\\\____/\\____/\\____/\\_|\\_\\" << std::endl;
-	std::cout << "                        By: aallou-v" << std::endl;
+	std::cout << "                        By: maallou-c" << std::endl;
 	std::cout << "######################################################################" << std::endl;
 	while (!std::cin.eof())
 	{
@@ -35,7 +35,7 @@ int	main()
 		}
 		else if (input == "SEARCH")
 		{
-			std::cout << "SEARCH\n";
+			phoneBook.search();
 		}
 		else if (input == "EXIT")
 		{

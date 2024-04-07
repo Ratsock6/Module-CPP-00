@@ -6,7 +6,7 @@
 /*   By: aallou-v <aallou-v@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 12:56:06 by aallou-v          #+#    #+#             */
-/*   Updated: 2024/04/06 18:55:04 by aallou-v         ###   ########.fr       */
+/*   Updated: 2024/04/07 14:04:31 by aallou-v         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,6 +105,11 @@ int Contact::createFake(void)
 
 void Contact::print(void)
 {
+	if (this->getFirstName().empty())
+	{
+		std::cout << "Le contact n'existe pas" << std::endl;
+		return ;
+	}
 	std::cout << "First Name : " << this->getFirstName() << std::endl;
 	std::cout << "Last Name : " << this->getLastName() << std::endl;
 	std::cout << "Nickname : " << this->getNickName() << std::endl;
